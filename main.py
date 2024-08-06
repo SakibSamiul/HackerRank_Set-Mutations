@@ -7,7 +7,7 @@ for _ in range(0, N):
 
     if operations[0] == "intersection_update":
         A.intersection_update(other_set)
-    if operations[0] == "updated":
+    if operations[0] == "update":
         A.update(other_set)
     if operations[0] == "symmetric_difference_update":
         A.symmetric_difference_update(other_set)
